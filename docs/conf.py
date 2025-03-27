@@ -30,7 +30,7 @@ extensions = [
 # Paths for autodoc
 import os
 import sys
-sys.path.insert(0, os.path.dirname(os.path.abspath('../../'))) # Adjust path to root where the package lives
+# sys.path.insert(0, os.path.dirname(os.path.abspath('../../'))) # Adjust path to root where the package lives
 
 # Napoleon settings to process Google-style docstrings correctly
 napoleon_google_docstring = True
