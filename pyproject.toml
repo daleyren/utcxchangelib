@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utcxchangelib"
+version = "0.1.1"
+authors = [
+    { name="Ian Magnell", email="ianmm3203@gmail.com" },
+]
+description = "A client library for interacting with xchange-v3"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    'setuptools>=69.0',
+    'protobuf==5.29.0',
+    'grpcio==1.71.0',
+    'flask==3.1.0',
+    'flask_sse==1.0.0',
+    'flask_cors==5.0.1',
+    'requests==2.32.3'
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
